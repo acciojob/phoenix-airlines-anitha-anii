@@ -13,8 +13,7 @@ const FlightBookingPage = () => {
   const [phone, setPhone] = useState('');
 
   const handleBooking = () => {
-    // Do validation and other booking-related tasks
-    const bookingDetails = {
+       const bookingDetails = {
       fullName,
       email,
       phone,

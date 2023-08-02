@@ -6,7 +6,7 @@ import FlightSearchResultsPage from './components/FlightSearchResultsPage';
 import FlightSearchPage from './components/FlightSearchPage';
 import ConfirmationPage from './components/ConfirmationPage';
 
-const App = () => {
+const App = () => {      
   return (
     <Routes>
       <Route path="/" element={<LandingPage />} /> 
